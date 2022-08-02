@@ -154,12 +154,18 @@
   border: 1px solid #e4e4e4;
   background-color: #fff;
   border-radius: 2px;
+  margin-bottom: 30px;
 }
 
 .downarrow {
   font-size: 28px;
   font-weight: bold;
   color: #ff4f38;
+}
+
+.partnercontainer {
+  width: 100%;
+  background-color: #5b5b5b;
 }
 
 @media (min-width: 768px) {
