@@ -17,3 +17,31 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
 }
+
+.mainprogram {
+  background-image: url(./images/pattern_bg.png);
+  background-repeat: repeat;
+  background-color: rgb(39, 42, 50);
+}
+.guidebar {
+  width: 53px;
+  height: 16px;
+  border-bottom: 1px solid rgb(239, 81, 60);
+  margin: 0px auto 54px;
+}
+
+.programdetails {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.topicname {
+  color: rgb(239, 81, 60);
+}
+
+.topicdescription {
+  color: rgb(255, 255, 255);
+}
+
+.joindiv {
+  background-color: #ff4f38;
+}
