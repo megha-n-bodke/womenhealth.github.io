@@ -4,3 +4,16 @@
   padding: 0;
   font-family: "Lato", sans-serif;
 }
+
+.main-section {
+  background-color: grey;
+  padding: 20px;
+}
+
+h1 {
+  color: transparent;
+  background-image: url(./images/womenBackgeound.png);
+  background-size: 100% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
