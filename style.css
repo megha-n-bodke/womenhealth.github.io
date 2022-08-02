@@ -10,12 +10,27 @@
   padding: 20px;
 }
 
-h1 {
+.hamburgericon {
+  width: 50px;
+  margin-bottom: 60px;
+}
+
+.hellotext {
+  font-size: 30px;
+  color: #ff4f38;
+  margin-bottom: 5px;
+}
+
+.imagetext {
   color: transparent;
   background-image: url(./images/womenBackgeound.png);
   background-size: 100% 100%;
   background-clip: text;
   -webkit-background-clip: text;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .mainprogram {
