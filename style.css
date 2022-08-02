@@ -168,6 +168,11 @@
   background-color: #5b5b5b;
 }
 
+/* About section styling */
+.backgroundsection {
+  margin: 20px;
+}
+
 @media (min-width: 768px) {
   .programdetailscontainer {
     /* flex-direction: row; */
