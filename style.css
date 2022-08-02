@@ -170,9 +170,63 @@
 
 /* About section styling */
 .backgroundsection {
-  margin: 20px;
+  padding: 20px;
+  background-color: #f7f7f7;
 }
 
+.abouthellotext {
+  font-size: 30px;
+  color: #ff4f38;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.aboutimagetext {
+  color: #ff4f38;
+  /*  background-image: url(./images/womenBackgeound.png);
+  background-size: 100% 100%;
+  -webkit-background-clip: text; */
+  display: flex;
+  justify-content: center;
+}
+
+.aboutdescription-text {
+  background-color: #ffffff;
+  border-radius: 2px solid #f7f7f7;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .email {
+  color: #5b5b5b;
+  font-weight: bold;
+}
+
+.summitlogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 40px;
+  border: 1px solid black;
+  margin-bottom: 40px;
+}
+
+.line {
+  width: 100%;
+  height: 16px;
+  border-bottom: 1px solid rgb(129, 127, 127);
+  margin: 0 auto 54px;
+}
 @media (min-width: 768px) {
   .programdetailscontainer {
     /* flex-direction: row; */
