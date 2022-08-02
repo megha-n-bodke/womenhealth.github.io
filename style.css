@@ -43,10 +43,36 @@
   line-height: 30px;
   font-size: 18px;
 }
+.date-venue {
+  margin-bottom: 40px;
+}
+.date-venue h1 {
+  color: #5b5b5b;
+  font-size: 30px;
+}
+
+.date-venue p {
+  color: #b1b1b1;
+  font-size: 20px;
+}
+
 .mainprogram {
   background-image: url(./images/pattern_bg.png);
   background-repeat: repeat;
   background-color: rgb(39, 42, 50);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.programdetails {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
 }
 .guidebar {
   width: 53px;
@@ -61,12 +87,26 @@
 
 .topicname {
   color: rgb(239, 81, 60);
+  font-weight: bold;
+  padding-left: 10px;
 }
 
 .topicdescription {
   color: rgb(255, 255, 255);
+  padding-left: 10px;
 }
 
 .joindiv {
   background-color: #ff4f38;
+  width: 80%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.joindiv {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
 }
