@@ -33,6 +33,16 @@
   margin-bottom: 20px;
 }
 
+.description-text {
+  border: 2px solid #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.description-text p {
+  line-height: 30px;
+  font-size: 18px;
+}
 .mainprogram {
   background-image: url(./images/pattern_bg.png);
   background-repeat: repeat;
