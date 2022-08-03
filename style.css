@@ -31,6 +31,7 @@
   text-decoration: none;
   color: #e4e4e4;
 }
+
 .navbar ul li {
   list-style: none;
   margin-bottom: 20px;
@@ -46,6 +47,7 @@
   display: flex;
   align-items: flex-end;
 }
+
 .hellotext {
   font-size: 30px;
   color: #ff4f38;
@@ -150,6 +152,7 @@
   flex-direction: column;
   margin-top: 40px;
 }
+
 .featurespeaker h1 {
   font-size: 30px;
 }
@@ -162,6 +165,7 @@
 .shortintro {
   font-size: 14px;
 }
+
 .speakerintro {
   display: flex;
   gap: 1em;
@@ -202,6 +206,7 @@
 .partnercontainer.show {
   display: block;
 }
+
 /* About section styling */
 .backgroundsection {
   padding: 20px;
@@ -211,7 +216,6 @@
 .abouthellotext {
   font-size: 30px;
   color: #ff4f38;
-  margin-bottom: 5px;
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
@@ -219,6 +223,7 @@
 
 .aboutimagetext {
   color: #ff4f38;
+
   /*  background-image: url(./images/womenBackgeound.png);
   background-size: 100% 100%;
   -webkit-background-clip: text; */
@@ -227,9 +232,10 @@
 }
 
 .aboutdescription-text {
-  background-color: #ffffff;
-  border-radius: 2px solid #f7f7f7;
+  background-color: #fff;
+  border: 2px solid #f7f7f7;
 }
+
 .contact {
   display: flex;
   flex-direction: column;
