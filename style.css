@@ -47,8 +47,9 @@
 }
 
 .closediv {
-  display: flex;
-  align-items: flex-end;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #fff;
 }
 
 .hellotext {
@@ -279,9 +280,12 @@
 }
 
 .summit2020 {
-  background: #ff4f38 url(./images/pastsummit1.jpeg) no-repeat;
+  background: url(./images/pastsummit1.jpeg) no-repeat;
   min-height: 300px;
   width: 400px;
+  background-color: #ff4f38;
+  background-blend-mode: lighten;
+  background-size: cover;
   /* background-repeat: no-repeat;
   background-size: contain; */
 
@@ -295,7 +299,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: black;
+}
+
+.textonimage {
+  color: white;
 }
 
 @media (min-width: 768px) {
