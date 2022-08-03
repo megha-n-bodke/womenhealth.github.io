@@ -318,7 +318,22 @@
   margin-top: 30px;
   margin-bottom: 20px;
 }
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
 
+.imagecontainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.partnersimages img {
+  height: 60px;
+  width: 100px;
+}
 .footersection img {
   height: 60px;
   width: 100px;
