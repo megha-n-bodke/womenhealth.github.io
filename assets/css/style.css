@@ -8,9 +8,10 @@
 
 .main-section {
   background-color: grey;
-  /*  background-image: url(./images/pastsummit1.jpeg);
+  background-image: url(../../images/background.jpeg);
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(210, 210, 209, 0.8);
   padding: 20px;
 }
 
@@ -59,8 +60,8 @@
 }
 
 .imagetext {
-  color: transparent;
-  background-image: url(./images/womenBackgeound.png);
+  color: #ff4f38d1;
+  background-image: url(./images/pastsummit1.jpeg);
   background-size: 100% 100%;
   -webkit-background-clip: text;
   font-size: 38px;
@@ -183,7 +184,8 @@
 }
 
 .footer-button {
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -195,10 +197,15 @@
   margin-bottom: 30px;
 }
 
+#lessbtn {
+  display: none;
+}
+
 .downarrow {
   font-size: 28px;
   font-weight: bold;
   color: #ff4f38;
+  margin-bottom: 10px;
 }
 
 .partnercontainer {
@@ -306,9 +313,15 @@
 }
 
 .footersection {
-  display: flex;
+  display: none;
   gap: 4em;
   justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footersection img {
+  height: 60px;
+  width: 100px;
 }
 
 @media (min-width: 768px) {
@@ -319,4 +332,19 @@
   .programdetails {
     /* flex-direction: column; */
   }
+}
+
+/* Medium devices (tablets, 768px and up)
+ */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up)
+ */
+@media (min-width: 992px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up)
+ */
+@media (min-width: 1200px) {
 }
