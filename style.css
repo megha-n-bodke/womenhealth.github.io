@@ -279,13 +279,23 @@
 }
 
 .summit2020 {
-  background-image: url(./images/pastsummit1.jpeg);
+  background: #ff4f38 url(./images/pastsummit1.jpeg) no-repeat;
   min-height: 300px;
   width: 400px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: lightblue;
+  /* background-repeat: no-repeat;
+  background-size: contain; */
+
   opacity: 0.2;
+}
+
+.textonimage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
 }
 
 @media (min-width: 768px) {
