@@ -305,6 +305,12 @@
   color: white;
 }
 
+.footersection {
+  display: flex;
+  gap: 4em;
+  justify-content: center;
+}
+
 @media (min-width: 768px) {
   .programdetailscontainer {
     /* flex-direction: row; */

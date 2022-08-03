@@ -19,4 +19,5 @@ morebtn.addEventListener("click", () => {
 
 lessbtn.addEventListener("click", () => {
   partnercontainer.classList.toggle("show");
+  morebtn.style.display = "block";
 });
