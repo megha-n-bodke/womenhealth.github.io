@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="./style.css">
     <title>Women Health</title>
@@ -15,18 +16,18 @@
         <!-- heaader section-->
         <header>
             <div class="logo-section">
-                <a href="./about.html"><img src="./images/mobile_menu.png" alt="Navigate To Menu"
-                        class="hamburgericon"></a>
+                <img src="./images/mobile_menu.png" alt="Navigate To Menu" class="hamburgericon" id="hmbgbtn">
             </div>
-            <!--    <nav class="navbar">
+            <nav class="navbar">
+                <div class="closediv"><i class="fa-solid fa-times closeicon" class="closebtn" id="closebtn"></i></div>
                 <ul class="nav-menu">
-                    <li><a href="#"> About</a></li>
+                    <li><a href="./about.html"> About</a></li>
                     <li><a href="#">Program</a></li>
                     <li><a href="#">Join</a></li>
                     <li><a href="#">Sponsor</a></li>
                     <li><a href="#">News</a></li>
                 </ul>
-            </nav> -->
+            </nav>
             <div>
                 <a></a>
             </div>
@@ -135,14 +136,17 @@
         </div>
     </section>
     <footer>
-        <button class="footer-button">MORE<span class="downarrow">&#8964;</span></button>
+        <button class="footer-button" id="morebtn">MORE<span class="downarrow">&#8964;</span></button>
         <div class="partnercontainer">
+            <div>
+                <h1>Hello Button</h1>
+            </div>
             <div></div>
             <div></div>
-            <div></div>
-
+            <button class="footer-button" id="lessbtn">LESS<span class="downarrow">&#8964;</span></button>
         </div>
     </footer>
-
+    <script src="./index.js"></script>
+</body>
 
 </html>
