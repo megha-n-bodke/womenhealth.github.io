@@ -55,12 +55,12 @@
 
 .hellotext {
   font-size: 30px;
-  color: #ff4f38;
+  color: #ec5242;
   margin-bottom: 5px;
 }
 
 .imagetext {
-  color: #ff4f38d1;
+  color: #ec5242;
   background-image: url(./images/pastsummit1.jpeg);
   background-size: 100% 100%;
   -webkit-background-clip: text;
@@ -120,15 +120,18 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+.topicicon {
+  color: #b1b1b1;
+}
 .guidebar {
   width: 53px;
   height: 16px;
-  border-bottom: 1px solid rgb(239, 81, 60);
+  border-bottom: 1px solid #ec5242;
   margin: 0 auto 54px;
 }
 
 .topicname {
-  color: rgb(239, 81, 60);
+  color: #ec5242;
   font-weight: bold;
   padding-left: 10px;
 }
@@ -139,7 +142,7 @@
 }
 
 .joindiv {
-  background-color: #ff4f38;
+  background-color: #ec5242;
   width: 80%;
   height: 75px;
   display: flex;
@@ -163,7 +166,7 @@
 }
 
 .profession {
-  color: #ff4f38;
+  color: #ec5242;
   font-size: 16px;
 }
 
@@ -204,7 +207,7 @@
 .downarrow {
   font-size: 28px;
   font-weight: bold;
-  color: #ff4f38;
+  color: #ec5242;
   margin-bottom: 10px;
 }
 
@@ -226,14 +229,14 @@
 
 .abouthellotext {
   font-size: 30px;
-  color: #ff4f38;
+  color: #ec5242;
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
 
 .aboutimagetext {
-  color: #ff4f38;
+  color: #ec5242;
 
   /*  background-image: url(./images/womenBackgeound.png);
   background-size: 100% 100%;
@@ -248,10 +251,7 @@
 }
 
 .contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .contact .email {
@@ -290,12 +290,11 @@
   background: url(./images/pastsummit1.jpeg) no-repeat;
   min-height: 300px;
   width: 400px;
-  background-color: #ff4f38;
+  background-color: #ec5242;
   background-blend-mode: lighten;
   background-size: cover;
   /* background-repeat: no-repeat;
   background-size: contain; */
-
   opacity: 0.2;
 }
 
@@ -316,6 +315,7 @@
   display: none;
   gap: 4em;
   justify-content: center;
+  margin-top: 30px;
   margin-bottom: 20px;
 }
 
@@ -324,19 +324,26 @@
   width: 100px;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .programdetailscontainer {
-    /* flex-direction: row; */
+    flex-direction: row;
+    
   }
 
   .programdetails {
-    /* flex-direction: column; */
+    flex-direction: column;
   }
-}
+} */
 
 /* Medium devices (tablets, 768px and up)
  */
 @media (min-width: 768px) {
+  .main-section {
+    padding: 0;
+  }
+  header {
+    background-color: #f7f7f7;
+  }
 }
 
 /* // Large devices (desktops, 992px and up)
