@@ -327,9 +327,11 @@
 
 .summityear {
   position: absolute;
-  top: 30%;
-  left: 25%;
+  top: 20%;
+  left: 20%;
   color: white;
+  font-size: 30px;
+  font-weight: bold;
 }
 .summit2020 img {
   /* box-shadow: inset 0 0 0 1000px rgba(202, 143, 124, 0.8); */
@@ -339,9 +341,12 @@
   background-size: contain; */
 }
 
+.summit2021 {
+  position: relative;
+}
 .summit2021 img {
   width: 88%;
-  position: relative;
+  /* position: relative; */
 }
 
 .textonimage {
@@ -388,6 +393,24 @@
 }
 
 .footersection img {
+  height: 60px;
+  width: 100px;
+}
+
+.aboutpartnercontainer {
+  width: 100%;
+  background-color: #5b5b5b;
+  margin-top: 40px;
+}
+.aboutfootersection {
+  display: flex;
+  gap: 4em;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.aboutfootersection img {
   height: 60px;
   width: 100px;
 }
