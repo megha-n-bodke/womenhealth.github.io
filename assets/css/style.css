@@ -12,7 +12,6 @@
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(210, 210, 209, 0.8);
   padding: 20px;
-  margin-bottom: 30px;
 }
 
 .hamburgericon {
@@ -86,7 +85,7 @@
 }
 
 .date-venue {
-  margin-bottom: 40px;
+  padding-bottom: 130px;
 }
 
 .date-venue h1 {
@@ -458,7 +457,7 @@
     color: #fff;
   }
   ul li:last-child {
-    margin-right: 200px;
+    margin-right: 100px;
   }
   header {
     background-color: #f7f7f7;
@@ -510,6 +509,22 @@
     margin-left: 100px;
     width: 500px;
     font-size: 15px;
+  }
+
+  .date-venue {
+    margin-left: 100px;
+  }
+
+  .programdetailscontainer {
+    flex-direction: row;
+  }
+  .programdetails {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .fa-id-card {
+    font-size: 4em;
   }
 }
 
