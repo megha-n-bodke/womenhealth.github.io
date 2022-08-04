@@ -20,6 +20,9 @@
   margin-bottom: 60px;
 }
 
+.toplogo {
+  display: none;
+}
 .navbar {
   display: none;
   width: 80%;
@@ -29,6 +32,7 @@
   top: 0;
   left: 0;
   padding: 30px;
+  opacity: 0.7;
 }
 
 .navbar ul li a {
@@ -414,6 +418,9 @@
   height: 60px;
   width: 100px;
 }
+.topheader {
+  display: none;
+}
 
 /* @media (min-width: 768px) {
   .programdetailscontainer {
@@ -433,17 +440,82 @@
     padding: 0;
   }
 
+  .logo-section {
+    display: none;
+  }
+  .topheader {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 50px;
+    align-items: center;
+    background-color: #272a31;
+  }
+  ul li {
+    margin-left: 2rem;
+    color: #fff;
+  }
+  ul li:last-child {
+    margin-right: 200px;
+  }
   header {
     background-color: #f7f7f7;
+    display: block;
+  }
+
+  .toplogo {
+    display: block;
+    height: 60px;
+    width: 100px;
+  }
+
+  #closebtn {
+    display: none;
+  }
+  .nav {
+    background-color: #fff;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar {
+    display: block;
+    position: static;
+    padding: 0px;
+    height: 0px;
+    width: 100%;
+    opacity: 1;
+    margin-bottom: 77px;
+    background-color: #fff;
+  }
+  .nav-menu {
+    display: flex;
+    color: black;
+  }
+
+  .navbar ul li a {
+    color: black;
+  }
+
+  .hero-section {
+    padding-top: 60px;
+    margin-left: 100px;
+  }
+  .description-text {
+    margin-bottom: 20px;
+    margin-left: 100px;
+    width: 500px;
+    font-size: 15px;
   }
 }
 
-/* // Large devices (desktops, 992px and up)
- */
-
 /* @media (min-width: 992px) {
-} */
-
+}
+ */
 /* // X-Large devices (large desktops, 1200px and up)
  */
 

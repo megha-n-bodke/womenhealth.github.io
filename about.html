@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>About Page</title>
@@ -14,8 +15,32 @@
     <section class="main-section">
         <header>
             <div class="logo-section">
-                <img src="./images/mobile_menu.png" alt="Navigate To Menu" class="hamburgericon">
+                <img src="./images/mobile_menu.png" alt="Navigate To Menu" class="hamburgericon" id="hmbgbtn">
             </div>
+
+            <!-- top header for desktop version -->
+            <div>
+                <ul class="topheader">
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li>English</li>
+                    <li>Mypage</li>
+                    <li>Logout</li>
+
+                </ul>
+            </div>
+            </div>
+            <nav class="navbar">
+                <div class="closediv"><i class="fa-solid fa-times closebtn" id="closebtn"></i></div>
+                <ul class="nav-menu">
+                    <li><a href="./about.html"> About</a></li>
+                    <li><a href="#">Program</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Sponsor</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">WH Campaign</a></li>
+                </ul>
+            </nav>
         </header>
 
 
@@ -91,6 +116,7 @@
             <p>Some Rights Reserved</p>
         </div>
     </footer>
+    <script src="./assets/js/index.js"></script>
 </body>
 
 </html>
