@@ -526,6 +526,11 @@
   .fa-id-card {
     font-size: 4em;
   }
+  .partnersparent {
+    display: flex;
+    gap: 5em;
+    justify-content: center;
+  }
 }
 
 /* @media (min-width: 992px) {
