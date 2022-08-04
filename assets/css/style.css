@@ -7,12 +7,12 @@
 }
 
 .main-section {
-  background-color: grey;
   background-image: url(../../images/background.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(210, 210, 209, 0.8);
   padding: 20px;
+  margin-bottom: 30px;
 }
 
 .hamburgericon {
@@ -56,7 +56,7 @@
 .hellotext {
   font-size: 30px;
   color: #ec5242;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .imagetext {
@@ -64,7 +64,7 @@
   background-image: url(./images/pastsummit1.jpeg);
   background-size: 100% 100%;
   -webkit-background-clip: text;
-  font-size: 38px;
+  font-size: 35px;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -86,12 +86,12 @@
 }
 
 .date-venue h1 {
-  color: #5b5b5b;
+  color: #272a31;
   font-size: 30px;
 }
 
 .date-venue p {
-  color: #b1b1b1;
+  color: #d3d3d3;
   font-size: 20px;
 }
 
@@ -104,6 +104,10 @@
   justify-content: center;
   align-items: center;
   padding: 15px;
+}
+.mainprogram h1 {
+  color: #f7f7f7;
+  font-size: 30px;
 }
 
 .programdetailscontainer {
@@ -152,6 +156,8 @@
   color: #fff;
   font-size: 20px;
   font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .featurespeaker {
@@ -237,27 +243,27 @@
 }
 
 .aboutimagetext {
-  color: #ec5242;
-
-  /*  background-image: url(./images/womenBackgeound.png);
-  background-size: 100% 100%;
-  -webkit-background-clip: text; */
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .aboutdescription-text {
   background-color: #fff;
   border: 2px solid #f7f7f7;
+  color: #d3d3d3;
 }
 
 .contact {
   text-align: center;
+  line-height: 1.5em;
 }
 
+.contact p {
+  color: #272a31;
+}
 .contact .email {
   color: #5b5b5b;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .summitlogo {
@@ -267,9 +273,22 @@
   align-items: center;
 }
 
+.summitlogo p {
+  text-align: center;
+  color: #272a31;
+}
+
+.summitlogoset {
+  margin-top: -35px;
+}
+
+.logotag {
+  font-size: 30px;
+}
+
 .logo {
   margin-top: 40px;
-  border: 1px solid black;
+  border: 1px solid #d3d3d3;
   margin-bottom: 40px;
 }
 
@@ -280,26 +299,31 @@
 
 .summitdescription {
   margin-top: -30px;
+  font-size: 16px;
+  margin-bottom: 40px;
+  color: #272a31;
 }
 
 .line {
   width: 100%;
   height: 16px;
-  border-bottom: 1px solid rgb(129, 127, 127);
+  border-bottom: 1px solid #d3d3d3;
   margin: 0 auto 54px;
 }
-
+.pastsummitdata {
+  text-align: center;
+  font-size: 15px;
+}
 .summit2020 {
-  background: url(./images/pastsummit1.jpeg) no-repeat;
+  background: url(/images/summit2020.jpeg) no-repeat;
   min-height: 300px;
+  /* box-shadow: inset 0 0 0 1000px rgba(202, 143, 124, 0.8); */
   width: 400px;
-  background-color: #ec5242;
-  background-blend-mode: lighten;
+
   background-size: cover;
 
   /* background-repeat: no-repeat;
   background-size: contain; */
-  opacity: 0.2;
 }
 
 .textonimage {
@@ -326,16 +350,23 @@
   align-items: center;
   justify-content: center;
   padding-top: 40px;
+  color: white;
+  font-size: 30px;
 }
 
 .imagecontainer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 1.5em;
 }
-
+.partnersimagesrow1 {
+  height: 100px;
+  width: 100px;
+}
 .partnersimages img {
-  height: 150px;
-  width: 200px;
+  height: 100px;
+  width: 150px;
+  margin-top: -10px;
 }
 
 .footersection img {
