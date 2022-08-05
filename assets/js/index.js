@@ -57,18 +57,6 @@ const speakers = [
     description: 'struggling with code ,microverse ,deadline',
     image: '/images/background.jpeg',
   },
-  {
-    name: 'Ely',
-    designation: 'software devloper',
-    description: 'struggling with code ,microverse ,deadline',
-    image: '/images/background.jpeg',
-  },
-  {
-    name: 'Philipe',
-    designation: 'software devloper',
-    description: 'struggling with code ,microverse ,deadline',
-    image: '/images/background.jpeg',
-  },
 ];
 let speaker = '';
 /* div for placing speakers */
