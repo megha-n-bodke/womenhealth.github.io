@@ -192,6 +192,7 @@
 
 .speakerintro {
   display: flex;
+  flex-direction: column;
   gap: 1em;
   margin-bottom: 30px;
 }
@@ -200,6 +201,10 @@
   display: flex;
   flex-direction: column;
   gap: 1em;
+}
+
+.speakercard {
+  display: flex;
 }
 
 .footer-button {
@@ -269,7 +274,6 @@
 
 .contact p {
   color: #272a31;
-  padding-bottom: 80px;
 }
 
 .contact .email {
@@ -546,6 +550,9 @@
     gap: 1em;
   }
 
+  .contact {
+    padding-bottom: 80px;
+  }
   .fa-id-card {
     font-size: 4em;
   }
@@ -597,11 +604,18 @@
   .imagetext {
     font-size: 50px;
   }
+
+  .programdetails {
+    margin: 5px;
+    padding: 30px;
+  }
 }
 
-/* @media (min-width: 992px) {
+@media (min-width: 992px) {
+  .contact p {
+    padding-bottom: 0px;
+  }
 }
- */
 
 /* // X-Large devices (large desktops, 1200px and up)
  */
