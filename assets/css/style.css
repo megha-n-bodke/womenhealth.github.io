@@ -195,6 +195,7 @@
   flex-direction: column;
   gap: 1em;
   margin-bottom: 30px;
+  padding: 30px;
 }
 
 .speakerdetails {
@@ -205,6 +206,7 @@
 
 .speakercard {
   display: flex;
+  gap: 1em;
 }
 
 .footer-button {
@@ -555,6 +557,11 @@
   }
   .fa-id-card {
     font-size: 4em;
+  }
+
+  .speakerintro {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .partnersparent {

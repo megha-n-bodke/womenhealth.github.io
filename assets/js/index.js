@@ -37,25 +37,25 @@ const speakers = [
     name: "Megha",
     designation: "software devloper",
     description: "struggling with code ,microverse ,deadline",
-    image: "/images/background.jpeg",
+    image: "https://randomuser.me/api/portraits/women/30.jpg",
   },
   {
     name: "Aiden",
     designation: "software devloper",
     description: "struggling with code ,microverse ,deadline",
-    image: "/images/background.jpeg",
+    image: "https://randomuser.me/api/portraits/men/45.jpg",
   },
   {
     name: "Saeqa",
     designation: "software devloper",
     description: "/images/background.jpeg",
-    image: "/images/background.jpeg",
+    image: "https://randomuser.me/api/portraits/women/75.jpg",
   },
   {
     name: "Aamir",
     designation: "software devloper",
     description: "struggling with code ,microverse ,deadline",
-    image: "/images/background.jpeg",
+    image: "https://randomuser.me/api/portraits/women/90.jpg",
   },
 ];
 let speaker = "";
