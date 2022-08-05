@@ -104,7 +104,7 @@
 }
 
 .mainprogram {
-  background-image: url(./images/pattern_bg.png);
+  background-image: url(../../images/pattern_bg.png);
   background-repeat: repeat;
   background-color: rgb(39, 42, 50);
   display: flex;
