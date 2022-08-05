@@ -420,6 +420,9 @@
 .topheader {
   display: none;
 }
+.desktopelement{
+  display: none;
+}
 
 /* @media (min-width: 768px) {
   .programdetailscontainer {
@@ -531,7 +534,24 @@
     gap: 5em;
     justify-content: center;
   }
+
+  .partnercontainer{
+    display: block;
+  }
+
+  .footersection{
+    display: flex;
+    margin-top: 40px;
+  }
+  .footer-button{
+    display: none;
+  }
+
+  .desktopelement{
+  display: block;
 }
+
+  
 
 /* @media (min-width: 992px) {
 }
