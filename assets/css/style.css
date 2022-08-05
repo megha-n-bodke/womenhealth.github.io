@@ -22,6 +22,7 @@
 .toplogo {
   display: none;
 }
+
 .navbar {
   display: none;
   width: 80%;
@@ -108,6 +109,7 @@
   align-items: center;
   padding: 15px;
 }
+
 .mainprogram h1 {
   color: #f7f7f7;
   font-size: 30px;
@@ -263,6 +265,7 @@
 .contact p {
   color: #272a31;
 }
+
 .contact .email {
   color: #5b5b5b;
   font-weight: bold;
@@ -313,6 +316,7 @@
   border-bottom: 1px solid #d3d3d3;
   margin: 0 auto 54px;
 }
+
 .pastsummitdata {
   text-align: center;
   font-size: 15px;
@@ -321,9 +325,11 @@
 .pastsummitphotos {
   display: flex;
   flex-direction: column;
+
   /* margin: 0 auto; */
   margin-left: 35px;
 }
+
 .summit2020 {
   position: relative;
 }
@@ -336,10 +342,12 @@
   font-size: 30px;
   font-weight: bold;
 }
+
 .summit2020 img {
   /* box-shadow: inset 0 0 0 1000px rgba(202, 143, 124, 0.8); */
   width: 88%;
   margin-bottom: 20px;
+
   /* background-repeat: no-repeat;
   background-size: contain; */
 }
@@ -347,8 +355,10 @@
 .summit2021 {
   position: relative;
 }
+
 .summit2021 img {
   width: 88%;
+
   /* position: relative; */
 }
 
@@ -385,10 +395,12 @@
   justify-content: center;
   gap: 1.5em;
 }
+
 .partnersimagesrow1 {
   height: 100px;
   width: 100px;
 }
+
 .partnersimages img {
   height: 100px;
   width: 150px;
@@ -405,6 +417,7 @@
   background-color: #5b5b5b;
   margin-top: 40px;
 }
+
 .aboutfootersection {
   display: flex;
   gap: 4em;
@@ -417,10 +430,12 @@
   height: 60px;
   width: 100px;
 }
+
 .topheader {
   display: none;
 }
-.desktopelement{
+
+.desktopelement {
   display: none;
 }
 
@@ -445,6 +460,7 @@
   .logo-section {
     display: none;
   }
+
   .topheader {
     display: flex;
     height: 40px;
@@ -455,13 +471,16 @@
     align-items: center;
     background-color: #272a31;
   }
+
   ul li {
     margin-left: 2rem;
     color: #fff;
   }
+
   ul li:last-child {
     margin-right: 100px;
   }
+
   header {
     background-color: #f7f7f7;
     display: block;
@@ -476,6 +495,7 @@
   #closebtn {
     display: none;
   }
+
   .nav {
     background-color: #fff;
     height: 100px;
@@ -484,16 +504,18 @@
     align-items: center;
     justify-content: space-between;
   }
+
   .navbar {
     display: block;
     position: static;
-    padding: 0px;
-    height: 0px;
+    padding: 0;
+    height: 0;
     width: 100%;
     opacity: 1;
     margin-bottom: 77px;
     background-color: #fff;
   }
+
   .nav-menu {
     display: flex;
     color: black;
@@ -507,6 +529,7 @@
     padding-top: 60px;
     margin-left: 100px;
   }
+
   .description-text {
     margin-bottom: 20px;
     margin-left: 100px;
@@ -521,6 +544,7 @@
   .programdetailscontainer {
     flex-direction: row;
   }
+
   .programdetails {
     flex-direction: column;
     gap: 1em;
@@ -529,35 +553,39 @@
   .fa-id-card {
     font-size: 4em;
   }
+
   .partnersparent {
     display: flex;
     gap: 5em;
     justify-content: center;
   }
 
-  .partnercontainer{
+  .partnercontainer {
     display: block;
   }
 
-  .footersection{
+  .footersection {
     display: flex;
     margin-top: 40px;
   }
-  .footer-button{
+
+  .footer-button {
     display: none;
   }
 
-  .desktopelement{
-  display: block;
-}
+  .desktopelement {
+    display: block;
+  }
 
-  
 
-/* @media (min-width: 992px) {
+
+  /* @media (min-width: 992px) {
 }
  */
-/* // X-Large devices (large desktops, 1200px and up)
+
+  /* // X-Large devices (large desktops, 1200px and up)
  */
 
-/* @media (min-width: 1200px) {
+  /* @media (min-width: 1200px) {
 } */
+}
