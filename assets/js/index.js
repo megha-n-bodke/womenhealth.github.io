@@ -1,67 +1,71 @@
-const hamburgericon = document.getElementById("hmbgbtn");
-const closebtn = document.getElementById("closebtn");
-const navbar = document.querySelector(".navbar");
-const morebtn = document.getElementById("morebtn");
-const lessbtn = document.getElementById("lessbtn");
-const partnercontainer = document.querySelector(".partnercontainer");
-const footer = document.getElementById("footer");
+const hamburgericon = document.getElementById('hmbgbtn');
+const closebtn = document.getElementById('closebtn');
+const navbar = document.querySelector('.navbar');
+const morebtn = document.getElementById('morebtn');
+const lessbtn = document.getElementById('lessbtn');
+const partnercontainer = document.querySelector('.partnercontainer');
+const footer = document.getElementById('footer');
 
-hamburgericon.addEventListener("click", () => {
-  navbar.classList.toggle("show");
-  hamburgericon.style.display = "none";
-  closebtn.style.display = "block";
+hamburgericon.addEventListener('click', () => {
+  navbar.classList.toggle('show');
+  hamburgericon.style.display = 'none';
+  closebtn.style.display = 'block';
 });
 
-closebtn.addEventListener("click", () => {
-  navbar.classList.toggle("show");
-  hamburgericon.style.display = "block";
+closebtn.addEventListener('click', () => {
+  navbar.classList.toggle('show');
+  hamburgericon.style.display = 'block';
 });
-morebtn.addEventListener("click", () => {
-  partnercontainer.classList.toggle("show");
-  morebtn.style.display = "none";
-  footer.style.display = "flex";
-  lessbtn.style.display = "flex";
+morebtn.addEventListener('click', () => {
+  partnercontainer.classList.toggle('show');
+  morebtn.style.display = 'none';
+  footer.style.display = 'flex';
+  lessbtn.style.display = 'flex';
 });
 
-lessbtn.addEventListener("click", () => {
-  partnercontainer.classList.toggle("show");
-  morebtn.style.display = "block";
-  footer.style.display = "none";
-  lessbtn.style.display = "none";
+lessbtn.addEventListener('click', () => {
+  partnercontainer.classList.toggle('show');
+  morebtn.style.display = 'block';
+  footer.style.display = 'none';
+  lessbtn.style.display = 'none';
 });
 
 /* dynamic speakers details */
 
 const speakers = [
   {
-    name: "Megha",
-    designation: "software devloper",
-    description: "struggling with code ,microverse ,deadline",
-    image: "https://randomuser.me/api/portraits/women/30.jpg",
+    name: 'Katty Kay',
+    designation: 'Award-winning Journalist & Anchor;',
+    description:
+      'Award-winning journalist and anchor Katty Kay broadcasts to a global audience from Washington with a fresh perspective',
+    image: 'https://randomuser.me/api/portraits/women/30.jpg',
   },
   {
-    name: "Aiden",
-    designation: "software devloper",
-    description: "struggling with code ,microverse ,deadline",
-    image: "https://randomuser.me/api/portraits/men/45.jpg",
+    name: 'Elizabeth Lombardo',
+    designation: 'Acclaimed Clinical Psychologist',
+    description:
+      'Success starts from within. Whether you want to have a healthy body, booming business, or flourishing relationships.',
+    image: 'https://randomuser.me/api/portraits/women/45.jpg',
   },
   {
-    name: "Saeqa",
-    designation: "software devloper",
-    description: "/images/background.jpeg",
-    image: "https://randomuser.me/api/portraits/women/75.jpg",
+    name: 'Dr. Romie Mushtaq',
+    designation: 'Brain Doctor, Speaker on Stress Management',
+    description:
+      'Dr. Romie is a board-certified physician, award-winning wellness speaker',
+    image: 'https://randomuser.me/api/portraits/women/75.jpg',
   },
   {
-    name: "Aamir",
-    designation: "software devloper",
-    description: "struggling with code ,microverse ,deadline",
-    image: "https://randomuser.me/api/portraits/women/90.jpg",
+    name: 'Judy Smith',
+    designation: 'Crisis Management Expert',
+    description:
+      'As the founder and president of Smith & Company, Smith uniquely combines her communication skills, media savvy.',
+    image: 'https://randomuser.me/api/portraits/women/90.jpg',
   },
 ];
-let speaker = "";
+let speaker = '';
 /* div for placing speakers */
-const speakerdiv = document.querySelector(".speakerintro");
-document.addEventListener("DOMContentLoaded", () => {
+const speakerdiv = document.querySelector('.speakerintro');
+document.addEventListener('DOMContentLoaded', () => {
   speakers.map((person) => {
     speaker += `
     <div class="speakercard">

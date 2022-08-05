@@ -68,8 +68,8 @@
 }
 
 .imagetext {
-  color: #ec5242;
-  background-image: url(./images/pastsummit1.jpeg);
+  color: #f31e089c;
+  background-image: url(/images/homepagebackground.avif);
   background-size: 100% 100%;
   -webkit-background-clip: text;
   font-size: 35px;
@@ -201,7 +201,6 @@
 .speakerdetails {
   display: flex;
   flex-direction: column;
-  gap: 1em;
 }
 
 .speakercard {
@@ -339,7 +338,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .summit2020 {
@@ -405,7 +403,7 @@
 .imagecontainer {
   display: flex;
   justify-content: center;
-  gap: 1.5em;
+  gap: 1em;
 }
 
 .partnersimagesrow1 {
@@ -539,6 +537,10 @@
     font-size: 15px;
   }
 
+  .aboutdescription-text {
+    margin-left: 20%;
+  }
+
   .date-venue {
     margin-left: 100px;
   }
@@ -550,11 +552,14 @@
   .programdetails {
     flex-direction: column;
     gap: 1em;
+    margin: 5px;
+    padding: 30px;
   }
 
   .contact {
     padding-bottom: 80px;
   }
+
   .fa-id-card {
     font-size: 4em;
   }
@@ -587,6 +592,11 @@
     display: block;
   }
 
+  .aboutimagetext {
+    text-align: center;
+    width: 700px;
+  }
+
   .aboutpartnercontainer {
     display: none;
   }
@@ -611,16 +621,11 @@
   .imagetext {
     font-size: 50px;
   }
-
-  .programdetails {
-    margin: 5px;
-    padding: 30px;
-  }
 }
 
 @media (min-width: 992px) {
   .contact p {
-    padding-bottom: 0px;
+    padding-bottom: 0;
   }
 }
 
