@@ -69,9 +69,12 @@
 
 .imagetext {
   color: #f31e089c;
+
   /*  background-image: url(/images/homepagebackground.avif); */
   background-size: 100% 100%;
+
   --webkit-background-clip: text;
+
   font-size: 35px;
   font-weight: 700;
   text-transform: uppercase;
