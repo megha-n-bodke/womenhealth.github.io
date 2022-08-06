@@ -63,7 +63,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Thanks to Microverse for giving this opportunity to learn ...
-- Hat tip : Mr.Aamir Khan and my all my colegues for this week.
+- Hat tip : Mr.Aamir Khan and all my Microverse colleague for this week.
 
 ## 📝 License
 

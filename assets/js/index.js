@@ -61,6 +61,20 @@ const speakers = [
       'As the founder and president of Smith & Company, Smith uniquely combines her communication skills, media savvy.',
     image: 'https://randomuser.me/api/portraits/women/90.jpg',
   },
+  {
+    name: 'Joe Pitt',
+    designation: 'National Security Correspondent for FOX News',
+    description:
+      'currently serves as a national security correspondent for FOX News Channel',
+    image: 'https://randomuser.me/api/portraits/men/67.jpg',
+  },
+  {
+    name: 'Joseph Cruise',
+    designation: 'International Expert On Nutrition, Fitness and Stress',
+    description:
+      'The three most appropriate words that come to mind after your powerful Wellness Panel presentation',
+    image: 'https://randomuser.me/api/portraits/men/70.jpg',
+  },
 ];
 let speaker = '';
 /* div for placing speakers */

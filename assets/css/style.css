@@ -69,9 +69,12 @@
 
 .imagetext {
   color: #f31e089c;
-  background-image: url(/images/homepagebackground.avif);
+
+  /*  background-image: url(/images/homepagebackground.avif); */
   background-size: 100% 100%;
-  -webkit-background-clip: text;
+
+  --webkit-background-clip: text;
+
   font-size: 35px;
   font-weight: 700;
   text-transform: uppercase;
@@ -161,6 +164,7 @@
   color: rgb(255, 255, 255);
   padding-left: 10px;
   max-width: 55%;
+  text-align: center;
 }
 
 .joindiv {
@@ -469,8 +473,6 @@
 
   .abouthero-section {
     padding-top: 60px;
-
-    /* margin-left: 100px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -571,8 +573,6 @@
     flex-direction: column;
     gap: 1em;
     margin: 5px;
-
-    /* padding: 30px; */
   }
 
   .contact {
@@ -627,13 +627,6 @@
     padding-bottom: 30px;
   }
 
-  /*   .pastsummitphotos {
-    flex-direction: row;
-    justify-content: center;
-    gap: 1em;
-    align-items: center;
-  } */
-
   .abouthellotext {
     display: none;
   }
@@ -661,9 +654,3 @@
     padding-bottom: 0;
   }
 }
-
-/* // X-Large devices (large desktops, 1200px and up)
- */
-
-/* @media (min-width: 1200px) {
-} */
