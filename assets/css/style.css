@@ -474,8 +474,6 @@
 
   .abouthero-section {
     padding-top: 60px;
-
-    /* margin-left: 100px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -576,8 +574,6 @@
     flex-direction: column;
     gap: 1em;
     margin: 5px;
-
-    /* padding: 30px; */
   }
 
   .contact {
@@ -632,13 +628,6 @@
     padding-bottom: 30px;
   }
 
-  /*   .pastsummitphotos {
-    flex-direction: row;
-    justify-content: center;
-    gap: 1em;
-    align-items: center;
-  } */
-
   .abouthellotext {
     display: none;
   }
@@ -666,9 +655,3 @@
     padding-bottom: 0;
   }
 }
-
-/* // X-Large devices (large desktops, 1200px and up)
- */
-
-/* @media (min-width: 1200px) {
-} */
