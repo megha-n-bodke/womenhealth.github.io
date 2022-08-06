@@ -367,9 +367,6 @@
   margin-bottom: 20px;
   background-repeat: no-repeat;
   background-size: cover;
-
-  /* background-repeat: no-repeat;
-  background-size: contain; */
 }
 
 .summit2021 {
@@ -385,8 +382,6 @@
 
 .summit2021 img {
   width: 100%;
-
-  /* position: relative; */
 }
 
 .textonimage {
